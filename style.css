@@ -1,451 +1,600 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    transform: 0.45s ease;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transform: 0.45s ease;
 }
 
-body{
-    background: black;
+body {
+  background: black;
 }
 
-.home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.text-holder{
-    font-size: 9.063rem;
-    font-family: outfit;
-    font-weight: bolder;
+.text-holder {
+  font-size: 9.063rem;
+  font-family: outfit;
+  font-weight: bolder;
 }
 
-.one{
-    color: #fff;
+.one {
+  color: #fff;
 }
 
-.two{
-    color: #20fc8f;
+.two {
+  color: #20fc8f;
 }
 
-.three{
-    color: #20fc8f;
+.three {
+  color: #20fc8f;
 }
 
-.text-1 a{
-    position: absolute;
-    left: 20%;
-    top: 15%;
-    transition: all 0.45s ease;
+.text-1 a {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  transition: all 0.45s ease;
 }
-.text-1 a:hover{
-    position: absolute;
-    left: 23%;
-    top: 15%;
-}
-
-.text-1 a:hover span{
-    display: none;
+.text-1 a:hover {
+  position: absolute;
+  left: 23%;
+  top: 15%;
 }
 
-.text-1 a:hover::before{
-    color: #fff;
-    content: "About";
+.text-1 a:hover span {
+  display: none;
 }
 
-
-.text-2 a{
-    position: absolute;
-    left: 20%;
-    top: 33%;
-    transition: all 0.45s ease;
-    color: #20fc8f;
+.text-1 a:hover::before {
+  color: #fff;
+  content: "About";
 }
 
-.text-2 a:hover{
-    position: absolute;
-    left: 22%;
-    top: 33%;
+.text-2 a {
+  position: absolute;
+  left: 20%;
+  top: 33%;
+  transition: all 0.45s ease;
+  color: #20fc8f;
 }
 
-.text-2 a:hover span{
-    display: none;
+.text-2 a:hover {
+  position: absolute;
+  left: 22%;
+  top: 33%;
 }
 
-.text-2 a:hover::before{
-    color: #20fc8f;
-    content: "Work";
+.text-2 a:hover span {
+  display: none;
 }
 
-.text-3 a:hover{
-    position: absolute;
-    left: 23%;
-    top: 51%;
+.text-2 a:hover::before {
+  color: #20fc8f;
+  content: "Work";
 }
 
-.text-3 a:hover{
-    position: absolute;
-    left: 22%;
-    top: 33%;
-}
-.text-3 a:hover span{
-    display: none;
+.text-3 a:hover {
+  position: absolute;
+  left: 23%;
+  top: 51%;
 }
 
-
-
-.text-3 a:hover::before{
-    content: "Contact";
-    color: #20fc8f;
+.text-3 a:hover {
+  position: absolute;
+  left: 22%;
+  top: 33%;
+}
+.text-3 a:hover span {
+  display: none;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.text-3 a:hover::before {
+  content: "Contact";
+  color: #20fc8f;
 }
 
-body{
-    background: black;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-.home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+body {
+  background: black;
 }
 
-.text-holder{
-    font-size: 9.063rem;
-    font-family: outfit;
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.one{
-    color: #fff;
+.text-holder {
+  font-size: 9.063rem;
+  font-family: outfit;
 }
 
-.two{
-    color: #20fc8f;
+.one {
+  color: #fff;
 }
 
-.three{
-    color: #20fc8f;
+.two {
+  color: #20fc8f;
 }
 
-.text-1 a{
-    position: absolute;
-    left: 20%;
-    top: 15%;
-    transition: all 0.45s ease;
-}
-.text-1 a:hover{
-    position: absolute;
-    left: 23%;
-    top: 15%;
+.three {
+  color: #20fc8f;
 }
 
-.text-1 a:hover span{
-    display: none;
+.text-1 a {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  transition: all 0.45s ease;
+}
+.text-1 a:hover {
+  position: absolute;
+  left: 23%;
+  top: 15%;
 }
 
-.text-1 a:hover::before{
-    color: #fff;
-    content: "About";
+.text-1 a:hover span {
+  display: none;
 }
 
-
-.text-2 a{
-    position: absolute;
-    left: 20%;
-    top: 33%;
-    transition: all 0.45s ease;
-    color: #20fc8f;
+.text-1 a:hover::before {
+  color: #fff;
+  content: "About";
 }
 
-.text-2 a:hover{
-    position: absolute;
-    left: 22%;
-    top: 33%;
+.text-2 a {
+  position: absolute;
+  left: 20%;
+  top: 33%;
+  transition: all 0.45s ease;
+  color: #20fc8f;
 }
 
-.text-2 a:hover span{
-    display: none;
+.text-2 a:hover {
+  position: absolute;
+  left: 22%;
+  top: 33%;
 }
 
-.text-2 a:hover::before{
-    color: #20fc8f;
-    content: "Work";
+.text-2 a:hover span {
+  display: none;
 }
 
-.text-3 a{
-    position: absolute;
-    left: 20%;
-    top: 51%;
-    transition: all 0.45s ease;
+.text-2 a:hover::before {
+  color: #20fc8f;
+  content: "Work";
 }
 
-.text-3 a:hover{
-    position: absolute;
-    left: 23%;
-    top: 51%;
+.text-3 a {
+  position: absolute;
+  left: 20%;
+  top: 51%;
+  transition: all 0.45s ease;
 }
 
-.text-3 a:hover span{
-    display: none;
+.text-3 a:hover {
+  position: absolute;
+  left: 23%;
+  top: 51%;
 }
 
-.text-3 a:hover::before{
-    content: "Contact";
-    color: #20fc8f;
+.text-3 a:hover span {
+  display: none;
 }
 
-.main-img img{
-    width: 100vw;
-    height: 99.3vh;
-    opacity: 0.65;
-    filter: blur(4px);
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -10;
+.text-3 a:hover::before {
+  content: "Contact";
+  color: #20fc8f;
 }
 
-.about-sec{
-    background: black;
+.main-img img {
+  width: 100vw;
+  height: 99.3vh;
+  opacity: 0.65;
+  filter: blur(4px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -10;
 }
 
-.about-main{
-    position: absolute;
-    color: white;
-    font-family: outfit;
-    font-size: 7.188rem;
-    left: 20%;
-    top: 16%;
+.about-sec {
+  background: black;
 }
 
-.about-home a{
-    position: fixed;
-    font-family: outfit;
-    color: #20fc8f;
-    font-size: 1.875rem;
-    top: 7%;
-    left: 80%;
-    z-index: 2;
-    transition: all 0.45s ease;
+.about-main {
+  position: absolute;
+  color: white;
+  font-family: outfit;
+  font-size: 7.188rem;
+  left: 20%;
+  top: 16%;
+}
+
+.about-home a {
+  position: fixed;
+  font-family: outfit;
+  color: #20fc8f;
+  font-size: 1.875rem;
+  top: 7%;
+  left: 80%;
+  z-index: 2;
+  transition: all 0.45s ease;
 }
 
 .about-home a:hover {
-    left: 78%;
+  left: 78%;
 }
-.work-home a:hover div{
-    left: 78%;
+.work-home a:hover div {
+  left: 78%;
 }
-.contact-home a:hover{
-    left: 78%;
-}
-
-
-
-.about-home a:hover span{
-    display: none;
+.contact-home a:hover {
+  left: 78%;
 }
 
-.about-home a:hover::after{
-    content: "com";
-    color: #20fc8f;
+.about-home a:hover span {
+  display: none;
 }
 
-.about{
-    position: absolute;
-    color: #20fc8f;
-    font-size: 1.875rem;
-    font-family: outfit;
-    top: 100%;
-    width: 48%;
-    left: 27%;
+.about-home a:hover::after {
+  content: "com";
+  color: #20fc8f;
 }
 
-.about-me{
-    position: absolute;
-    color: #fff;
-    top: 105%;
-    font-family: readex pro;
-    font-size: 1.25rem;
-    height: 50vh;
-    
+.about {
+  position: absolute;
+  color: #20fc8f;
+  font-size: 1.875rem;
+  font-family: outfit;
+  top: 100%;
+  width: 48%;
+  left: 27%;
 }
 
-.work{
-    position: absolute;
-    color: #fff;
-    font-family: outfit;
-    font-size: 8.438rem;
-    top: 15%;
-    left: 7%;
+.about-me {
+  position: absolute;
+  color: #fff;
+  top: 105%;
+  font-family: readex pro;
+  font-size: 1.25rem;
+  height: 50vh;
 }
 
-.work-home a{
-    position: fixed;
-    font-family: outfit;
-    color: #20fc8f;
-    font-size: 1.875rem;
-    top: 7%;
-    left: 80%;
-    z-index: 2;
-    transition: all 0.45s ease;
+.work {
+  position: absolute;
+  color: #fff;
+  font-family: outfit;
+  font-size: 8.438rem;
+  top: 15%;
+  left: 7%;
 }
 
-
-.work-home a:hover span{
-    display: none;
-    transition: 0.45s ease;
+.work-home a {
+  position: fixed;
+  font-family: outfit;
+  color: #20fc8f;
+  font-size: 1.875rem;
+  top: 7%;
+  left: 80%;
+  z-index: 2;
+  transition: all 0.45s ease;
 }
 
-.work-home a:hover::after{
-    content: "com";
-    color: #20fc8f;
-    transition: 0.45s ease;
+.work-home a:hover span {
+  display: none;
+  transition: 0.45s ease;
 }
 
-.contact{
-    position: absolute;
-    top: 10%;
-    left: 6%; 
-    bottom: 200%;
+.work-home a:hover::after {
+  content: "com";
+  color: #20fc8f;
+  transition: 0.45s ease;
 }
 
-.contact-quote{
-    color: white;
-    font-family: outfit;
-    font-size: 11.875rem;
+.contact {
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  bottom: 200%;
 }
 
-.contact-home a{
-    position: fixed;
-    font-family: outfit;
-    color: #20fc8f;
-    font-size: 1.505rem;
-    top: 7%;
-    left: 80%;
-    z-index: 2;
-    transition: all 0.45s ease;
+.contact-quote {
+  color: white;
+  font-family: outfit;
+  font-size: 11.875rem;
 }
 
-
-.contact-home a:hover span{
-    display: none;
-    transition: 0.45s ease;
+.contact-home a {
+  position: fixed;
+  font-family: outfit;
+  color: #20fc8f;
+  font-size: 1.505rem;
+  top: 7%;
+  left: 80%;
+  z-index: 2;
+  transition: all 0.45s ease;
 }
 
-.contact-home a:hover::after{
-    content: "com";
-    color: #20fc8f;
-    transition: 0.45s ease;
+.contact-home a:hover span {
+  display: none;
+  transition: 0.45s ease;
 }
 
-.contact-n{
-    position: absolute;
-    color: #fff;
-    font-family: outfit;
-    font-size: 2.188rem;
-    top: 110%;
-    left: 25%;
-
+.contact-home a:hover::after {
+  content: "com";
+  color: #20fc8f;
+  transition: 0.45s ease;
 }
 
-.contact-p{
-    position: absolute;
-    color: #fff;
-    font-size: 1.25rem;
-    font-family: readex pro;
-    top: 120%;
-    left: 25%;
-    width: 45%;
-    bottom: -10%;
-    height: 50vh;
+.contact-n {
+  position: absolute;
+  color: #fff;
+  font-family: outfit;
+  font-size: 2.188rem;
+  top: 110%;
+  left: 25%;
 }
 
-.instagram a{
-    position: absolute;
-    font-family: outfit;
-    font-size: 1.563rem;
-    color: #20fc8f;
-    top: 175%;
-    left: 25%;
-}
-.github a{
-    position: absolute;
-    font-family: outfit;
-    font-size: 1.563rem;
-    color: #20fc8f;
-    top: 180%;
-    left: 25%;
-}
-.linkedin a{
-    position: absolute;
-    font-family: outfit;
-    font-size: 1.563rem;
-    color: #20fc8f;
-    top: 185%;
-    left: 25%;
+.contact-p {
+  position: absolute;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: readex pro;
+  top: 120%;
+  left: 25%;
+  width: 45%;
+  bottom: -10%;
+  height: 50vh;
 }
 
-#socials a{
-    transition: all 0.25s ease;
+.instagram a {
+  position: absolute;
+  font-family: outfit;
+  font-size: 1.563rem;
+  color: #20fc8f;
+  top: 175%;
+  left: 25%;
+}
+.github a {
+  position: absolute;
+  font-family: outfit;
+  font-size: 1.563rem;
+  color: #20fc8f;
+  top: 180%;
+  left: 25%;
+}
+.linkedin a {
+  position: absolute;
+  font-family: outfit;
+  font-size: 1.563rem;
+  color: #20fc8f;
+  top: 185%;
+  left: 25%;
 }
 
-#socials a:hover{
-    left: 26%;
+#socials a {
+  transition: all 0.25s ease;
 }
 
-.img-1{
-    height: 170vh;
-    width: 100%;
-    opacity: 0.5;
-    filter: blur(10px);
-}
-.work-img{
-    height: 99.3vh;
-    width: 100%;
-    opacity: 0.5;
-    filter: blur(10px);
-}
-.contact-img{
-    height: 200vh;
-    width: 100%;
-    opacity: 0.5;
-    filter: blur(10px);
+#socials a:hover {
+  left: 26%;
 }
 
-.download a{
-    font-family: outfit;
-    font-size: 2rem;
-    color: #20fc8f;
-    position: absolute;
-    left: 7%;
-    top: 85%;
+.img-1 {
+  height: 170vh;
+  width: 100%;
+  opacity: 0.5;
+  filter: blur(10px);
+}
+.work-img {
+  height: 99.3vh;
+  width: 100%;
+  opacity: 0.5;
+  filter: blur(10px);
+}
+.contact-img {
+  height: 200vh;
+  width: 100%;
+  opacity: 0.5;
+  filter: blur(10px);
 }
 
-
-.download a{
-    position: absolute;
-    left: 7%;
-    top: 85%;
-    transition: all 0.45s ease;
-}
-.download a:hover{
-    position: absolute;
-    left: 8.9%;
-    top: 85%;
+.download a {
+  font-family: outfit;
+  font-size: 2rem;
+  color: #20fc8f;
+  position: absolute;
+  left: 7%;
+  top: 85%;
 }
 
-.download a:hover span{
-    display: none;
+.download a {
+  position: absolute;
+  left: 7%;
+  top: 85%;
+  transition: all 0.45s ease;
+}
+.download a:hover {
+  position: absolute;
+  left: 8.9%;
+  top: 85%;
 }
 
-.download a:hover::before{
-    color: #fff;
+.download a:hover span {
+  display: none;
+}
+
+.download a:hover::before {
+  color: #fff;
+}
+
+/* Resume Styles */
+.resume-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+  font-family: "Readex Pro", sans-serif;
+}
+
+.resume-home a {
+  position: fixed;
+  font-family: outfit;
+  color: #20fc8f;
+  font-size: 1.875rem;
+  top: 7%;
+  left: 80%;
+  z-index: 2;
+  transition: all 0.45s ease;
+}
+
+.resume-home a:hover {
+  left: 78%;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.resume-header h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 3.5rem;
+  color: #20fc8f;
+  margin-bottom: 1rem;
+}
+
+.resume-header .subtitle {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.resume-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.resume-section h2 {
+  font-family: "Outfit", sans-serif;
+  color: #20fc8f;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-item h3,
+.project-item h3 {
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-item p,
+.project-item p {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill-category h3 {
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category li {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skill-category li::before {
+  content: "•";
+  color: #20fc8f;
+  position: absolute;
+  left: 0;
+}
+
+.project-links a {
+  color: #20fc8f;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #fff;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-links a {
+  color: #20fc8f;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 1rem;
+  }
+
+  .resume-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .resume-section {
+    padding: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
